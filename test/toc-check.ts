@@ -1,9 +1,8 @@
 import * as colors from 'colors/safe';
 import * as diff from 'diff';
 import * as fs from 'fs';
-
 import * as toc from '../tool/toc';
-
+//this is new thing
 if (process.env.CI) colors.enable();
 
 toc.files.forEach(file => {
